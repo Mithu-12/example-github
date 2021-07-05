@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.container{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+.protfolio{
+    background-image: url(dream-bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+.protfolio-image{
+    background-size: 40%;
+    background-position-y: bottom;
+}
+.grid-row{
+    display: flex;
+    padding: 30px 60px;
+}
+
+.grid-items{
+    width: 100%;
+}
+
+h1{
+    font-size: 50px;
+}
+h1 span{
+    color: rgba(255, 166, 0, 0.904);
+}
+.btn{
+    padding: 6px 35px;
+    border: 1px solid #ffaf00;
+    background: linear-gradient(#ffaf00, hsl(61, 100%, 61%) );
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+
+}
+.btn:hover{
+    background: transparent;
+    color:rgba(255, 166, 0, 0.904);
+    transition: 2s;
+}
+h3{
+    color:rgba(255, 166, 0, 0.904)
+}
+.experience-items{
+    width: 44%;
+    margin-left: 2%;
+    margin-right: 5%;
+    box-shadow: 12px 12px 38px gray;
+    padding-left:  25px;
+    padding-bottom: 30px;
+}
+.experience{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby{
+    border-image: linear-gradient( blue, cyan);
+    border-left: 6px solid;
+    border-image-slice: 1;
+}
+#stack{
+    border-image: linear-gradient(#ffaf00, orange);
+    border-left: 6px solid;
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
